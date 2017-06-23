@@ -1,0 +1,33 @@
+p {
+	font-size: 20px;
+}
+
+.btn-social {
+	border: 2px solid;
+	border-radius: 100%;
+	color: black;
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	font-size: 25px;
+	/*control text vertical position*/
+	line-height: 45px;
+}
+
+.footer-above,
+.footer-below {
+	padding: 25px 0;
+}
+
+.footer-above {
+	background-color: #FFEB3B;
+}
+
+.footer-below {
+	background-color: #00B0FF;
+}
+
+.footer-below p {
+	margin-bottom: 0px;
+}
