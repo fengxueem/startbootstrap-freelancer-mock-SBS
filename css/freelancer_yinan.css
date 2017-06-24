@@ -1,10 +1,15 @@
+body {
+	padding-top: 60px;
+}
+
 p {
 	font-size: 20px;
 }
 
 .btn-social {
 	border: 2px solid;
-	border-radius: 100%;
+	/*round the border*/
+	border-radius: 6px;
 	color: black;
 	display: inline-block;
 	width: 50px;
@@ -17,7 +22,7 @@ p {
 
 .footer-above,
 .footer-below {
-	padding: 25px 0;
+	padding: 25px 0px;
 }
 
 .footer-above {
