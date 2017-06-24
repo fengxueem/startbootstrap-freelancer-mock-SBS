@@ -61,6 +61,7 @@ p {
 .navbar-custom .navbar-nav li a {
 	color: black;
 	font-size: 1.1em;
+	border-radius: 6px;
 }
 
 .navbar-custom .navbar-nav li a:hover {
@@ -72,6 +73,20 @@ p {
   	background-color: #FFEB3B;
 }
 
+.navbar-custom .navbar-toggle {
+	border-color: black;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+	background-color: black;
+}
+
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #FFEB3B;
+  border-color: #FFEB3B;
+}
+
 @media (min-width: 768px) {
   .navbar-custom {
     padding: 15px 20px;
@@ -80,6 +95,12 @@ p {
 
 @media (max-width: 767px) {
   .navbar-custom {
-    padding: 15px 35px;
+    padding: 15px 10px;
+  }
+  .navbar-custom .navbar-toggle {
+	margin-right: 0;
+  }
+  .navbar-custom .navbar-brand {
+  	padding: 15px 5px;
   }
 }
