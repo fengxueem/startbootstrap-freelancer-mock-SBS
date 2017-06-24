@@ -2,6 +2,61 @@ body {
 	padding-top: 80px;
 }
 
+header {
+	background-color: #FFEB3B;
+	color: #FF8F00;
+	padding-top: 60px;
+	padding-bottom: 30px;
+}
+
+header p {
+	font-weight: 200;
+	font-size: 1.25em;
+}
+
+@media (min-width: 768px) {
+	header {
+		padding-top: 120px;
+		padding-bottom: 60px;
+	}
+	header .name {
+		font-size: 4.5em;
+	}
+	header p {
+		font-weight: 300;
+		font-size: 1.75em;
+	}
+}
+
+hr {
+	padding: 0;
+	border: none;
+	border-top: solid 5px;
+	text-align: center;
+	max-width: 200px;
+	margin: 25px auto 30px;
+}
+
+hr.cogs:after {
+  content: "\f085";
+  font-family: FontAwesome;
+  display: inline-block;
+  position: relative;
+  top: -0.8em;
+  font-size: 2em;
+  padding: 0 0.25em;
+}
+
+hr.cogs:after {
+  background-color: #FFEB3B;
+}
+
+@media (min-width: 768px) {
+	hr {
+		max-width: 300px;
+	}
+}
+
 p {
 	font-size: 20px;
 }
@@ -37,11 +92,19 @@ p {
 	margin-bottom: 0px;
 }
 
+.name {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+  	font-weight: 700;
+  	font-size: 2em;	
+}
+
 .navbar-custom {
 	background-color: #00B0FF;
 	font-weight: 800;
 	padding-top: 10px;
 	padding-bottom: 10px;
+	border-color: transparent;
 }
 
 .navbar-custom .navbar-brand,
@@ -55,7 +118,7 @@ p {
 
 .navbar-custom .navbar-nav,
 .navbar-custom .navbar-brand {
-  letter-spacing: 1px;
+  	letter-spacing: 1px;
 }
 
 .navbar-custom .navbar-nav li a {
@@ -89,13 +152,13 @@ p {
 
 @media (min-width: 768px) {
   .navbar-custom {
-    padding: 15px 20px;
+    padding: 25px 20px;
   }
 }
 
 @media (max-width: 767px) {
   .navbar-custom {
-    padding: 15px 10px;
+    padding: 25px 10px;
   }
   .navbar-custom .navbar-toggle {
 	margin-right: 0;
@@ -103,4 +166,11 @@ p {
   .navbar-custom .navbar-brand {
   	padding: 15px 5px;
   }
+}
+
+.selfie {
+	border: 7px dashed #FFB300;
+	border-radius: 100%;
+	width: 30%;
+	display: inline;
 }
