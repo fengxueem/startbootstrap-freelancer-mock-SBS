@@ -1,5 +1,5 @@
 body {
-	padding-top: 60px;
+	padding-top: 80px;
 }
 
 p {
@@ -35,4 +35,51 @@ p {
 
 .footer-below p {
 	margin-bottom: 0px;
+}
+
+.navbar-custom {
+	background-color: #00B0FF;
+	font-weight: 800;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-brand:hover,
+.navbar-custom .navbar-brand:focus,
+.navbar-custom .navbar-brand:active,
+.navbar-custom .navbar-brand.active {
+	font-size: 2em;
+	color: black;
+}
+
+.navbar-custom .navbar-nav,
+.navbar-custom .navbar-brand {
+  letter-spacing: 1px;
+}
+
+.navbar-custom .navbar-nav li a {
+	color: black;
+	font-size: 1.1em;
+}
+
+.navbar-custom .navbar-nav li a:hover {
+	color: #FFEB3B;
+}
+
+.navbar-custom .navbar-nav li a:focus {
+	color: black;
+  	background-color: #FFEB3B;
+}
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 15px 20px;
+  }
+}
+
+@media (max-width: 767px) {
+  .navbar-custom {
+    padding: 15px 35px;
+  }
 }
