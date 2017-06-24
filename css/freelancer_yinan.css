@@ -19,9 +19,6 @@ header p {
 		padding-top: 120px;
 		padding-bottom: 60px;
 	}
-	header .name {
-		font-size: 4.5em;
-	}
 	header p {
 		font-weight: 300;
 		font-size: 1.75em;
@@ -45,9 +42,6 @@ hr.cogs:after {
   top: -0.8em;
   font-size: 2em;
   padding: 0 0.25em;
-}
-
-hr.cogs:after {
   background-color: #FFEB3B;
 }
 
@@ -97,6 +91,12 @@ p {
 	text-transform: uppercase;
   	font-weight: 700;
   	font-size: 2em;	
+}
+
+@media (min-width: 768px) {
+	.name {
+		font-size: 4.5em;
+	}
 }
 
 .navbar-custom {
