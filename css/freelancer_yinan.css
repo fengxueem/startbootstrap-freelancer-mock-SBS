@@ -3,7 +3,7 @@ body {
 }
 
 header {
-	background-color: #FFEB3B;
+	background-color: #FFF176;
 	color: #FF8F00;
 	padding-top: 60px;
 	padding-bottom: 30px;
@@ -42,7 +42,7 @@ hr.cogs:after {
   top: -0.8em;
   font-size: 2em;
   padding: 0 0.25em;
-  background-color: #FFEB3B;
+  background-color: #FFF176;
 }
 
 @media (min-width: 768px) {
@@ -55,11 +55,30 @@ p {
 	font-size: 20px;
 }
 
+.about {
+	background-color: #FFF176; 
+	padding: 40px 0;
+	color: #FF8F00;
+}
+
+.about p {
+	font-size: 1.25em;
+}
+
+@media (min-width: 768px) {
+	.about {
+		padding: 60px 0;
+	}
+	.about p {
+		font-size: 1.5em;
+	}
+}
+
 .btn-social {
 	border: 2px solid;
 	/*round the border*/
 	border-radius: 6px;
-	color: black;
+	color: #FF8F00;
 	display: inline-block;
 	width: 50px;
 	height: 50px;
@@ -75,14 +94,17 @@ p {
 }
 
 .footer-above {
-	background-color: #FFEB3B;
+	background-color: #FFF176;
+	color: #FF8F00;
 }
 
 .footer-below {
-	background-color: #00B0FF;
+	background-color: #40C4FF;
 }
 
 .footer-below p {
+	font-size: 1em;
+	letter-spacing: 1px;
 	margin-bottom: 0px;
 }
 
@@ -100,7 +122,7 @@ p {
 }
 
 .navbar-custom {
-	background-color: #00B0FF;
+	background-color: #40C4FF;
 	font-weight: 800;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -128,12 +150,12 @@ p {
 }
 
 .navbar-custom .navbar-nav li a:hover {
-	color: #FFEB3B;
+	color: #FFF176;
 }
 
 .navbar-custom .navbar-nav li a:focus {
 	color: black;
-  	background-color: #FFEB3B;
+  	background-color: #FFF176;
 }
 
 .navbar-custom .navbar-toggle {
@@ -146,8 +168,8 @@ p {
 
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #FFEB3B;
-  border-color: #FFEB3B;
+  background-color: #FFF176;
+  border-color: #FFF176;
 }
 
 @media (min-width: 768px) {
@@ -191,7 +213,7 @@ p {
 
 .portfolio .portfolioItem a .caption {
   	border-radius: 6px;
-	background-color: #00B0FF;
+	background-color: #40C4FF;
 	position: absolute;
   	width: 100%;
   	height: 100%;
@@ -227,6 +249,7 @@ p {
 
 .sectionName {
 	font-weight: 600;
+	font-size: 3em;
 }
 
 .selfie {
