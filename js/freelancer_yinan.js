@@ -11,3 +11,6 @@ $('.page-scroll a').bind('click', function(event) {
     }, 1250, 'easeInOutExpo');
     event.preventDefault();
 });
+
+// activate scrollspy
+$('body').scrollspy({ target: '#yinan-navbar-collapse-1', offset: 150 })

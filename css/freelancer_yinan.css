@@ -1,4 +1,5 @@
 body {
+	position: relative;
 	padding-top: 80px;
 }
 
@@ -151,6 +152,10 @@ p {
 	color: #FFF176;
 }
 
+.navbar-custom .navbar-nav li.active a,
+.navbar-custom .navbar-nav li.active a:hover,
+.navbar-custom .navbar-nav li.active a:focus,
+.navbar-custom .navbar-nav li.active a:active,
 .navbar-custom .navbar-nav li a:focus {
 	color: black;
   	background-color: #FFF176;
